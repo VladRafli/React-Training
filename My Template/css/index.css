@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fira Sans', monospace, sans-serif;
+    background-color: rgb(73, 137, 197);
+}
+.title{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.title h1{
+    padding: 20px;
+}
+.container{
+    box-sizing: border-box;
+    /* Flex */
+    display: flex;
+    justify-content: space-between;
+}
+.container .sidebar-left{
+    width: 150px;
+    /* Flex */
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container .main-content{
+    width: 100%;
+    /* Parent Flex */
+    order: 2;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .main-content .post{
+    width: 100%;
+    padding: 20px;
+}
+.container .main-content .post .post-author{
+    padding: 20px;
+}
+.container .main-content .post .post-text{
+    padding: 20px;
+}
+.container .main-content .post .post-buttons{
+    padding: 20px;
+    /* Flex */
+    display: flex;
+    justify-content: center;
+}
+.container .sidebar-right{
+    width: 150px;
+    /* Flex */
+    order: 3;
+}
