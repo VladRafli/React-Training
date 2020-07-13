@@ -1,3 +1,6 @@
 [submodule "react-website"]
 	path = react-website
 	url = https://github.com/VladRafli/react-website.git
+[submodule "navbar-react-app"]
+	path = navbar-react-app
+	url = https://github.com/VladRafli/navbar-react-app.git
