@@ -4,3 +4,6 @@
 [submodule "navbar-react-app"]
 	path = navbar-react-app
 	url = https://github.com/VladRafli/navbar-react-app.git
+[submodule "e-absence"]
+	path = e-absence
+	url = https://github.com/VladRafli/e-absence
